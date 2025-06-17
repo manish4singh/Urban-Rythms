@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+@font-face {
+  font-family: HeadingNowTrialLight;
+  src: url("../assets/fonts/heading_now/HeadingNowTrial-02Light.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: HeadingNowTrialThin;
+  src: url("../assets/fonts/heading_now/HeadingNowTrial-01Thin.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: HeadingNowTrialRegular;
+  src: url("../assets/fonts/heading_now/HeadingNowTrial-34Regular.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: HeadingNowTrialRegular44;
+  src: url("../assets/fonts/heading_now/HeadingNowTrial-44Regular.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: HeadingNowTrialRegular24;
+  src: url("../assets/fonts/heading_now/HeadingNowTrial-24Regular.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: Impact;
+  src: url("../assets/fonts/impact/Impact.ttf") format("truetype");
+}

@@ -1,0 +1,105 @@
+@media screen and (max-width: 1705px) {
+  .header-section {
+    margin-top: 40px;
+  }
+  .banner-btn1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .navbar-links {
+    display: none;
+  }
+  .ham-menu {
+    display: block;
+  }
+  #menu:checked ~ .navbar-links {
+    display: flex;
+    justify-content: center;
+  }
+  .navbar-links {
+    flex-basis: 100%;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    animation: slideIn 900ms forwards ease-in;
+    background: transparent;
+    backdrop-filter: blur(10px);
+  }
+  .navbar-links > ul {
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .navbar-links > ul > li:not(:first-child)::before {
+    content: "";
+  }
+  .banner-content {
+    flex-direction: column-reverse;
+  }
+
+  .banner-content-left,
+  .banner-content-right {
+    width: 100% !important;
+  }
+
+  .secondary-btn {
+    padding: 0px;
+  }
+
+  .banner-content-left > h1 {
+    font-size: 70px;
+    line-height: 80px;
+  }
+
+  .banner-content-left > h2 {
+    font-size: 130px;
+    line-height: 140px;
+  }
+
+  .banner-content-left > h3 {
+    font-size: 120px;
+    line-height: 130px;
+  }
+
+  .primary-btn {
+    font-size: 16px;
+  }
+  .about-content{
+    flex-direction: column;
+  }
+
+  .divider{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .banner-content-left > h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .banner-content-left > h2 {
+    font-size: 100px;
+    line-height: 110px;
+  }
+
+  .banner-content-left > h3 {
+    font-size: 90px;
+    line-height: 100px;
+  }
+
+  .primary-btn {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 400px){
+
+  .banner-btns,.review-area,.about-content{
+    flex-direction: column;
+  }
+  
+}
