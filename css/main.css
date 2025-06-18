@@ -51,6 +51,10 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   padding: 0 15px;
+<<<<<<< HEAD
+=======
+  
+>>>>>>> 406213411a70af0db37c21e5bb56970f4dcc3bcb
 }
 
 .navbar-logo {
@@ -670,6 +674,7 @@ a:hover {
   line-height: 100%;
   color: #defe5c;
 }
+<<<<<<< HEAD
 
 /* .dance-form-cards {
   display: flex;
@@ -704,3 +709,5 @@ a:hover {
 .dance-form-card:nth-child(odd) {
   z-index: 0;
 } */
+=======
+>>>>>>> 406213411a70af0db37c21e5bb56970f4dcc3bcb
