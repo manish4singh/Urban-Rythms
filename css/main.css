@@ -51,10 +51,6 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   padding: 0 15px;
-<<<<<<< HEAD
-=======
-  
->>>>>>> 406213411a70af0db37c21e5bb56970f4dcc3bcb
 }
 
 .navbar-logo {
@@ -635,7 +631,7 @@ a:hover {
   object-fit: contain;
 }
 
-/* Dance Form Section */
+/* Dance Form Section
 
 .dance-forms-section {
   min-height: 1414px;
@@ -674,9 +670,8 @@ a:hover {
   line-height: 100%;
   color: #defe5c;
 }
-<<<<<<< HEAD
 
-/* .dance-form-cards {
+.dance-form-cards {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -685,16 +680,24 @@ a:hover {
 
 .dance-form-card {
   width: 480px;
-  height: 100%;
-  padding: 10px;
+  height: 687px;
   background: url("../assets/backgrounds/cards/Rectangle\ 9.png") no-repeat
     center center/cover;
   position: relative;
 }
 
+.dance-form-card:nth-child(2) {
+  position: relative;
+  top: -110px;
+}
+
 .dancer-image {
   width: 100%;
-  height: fit-content;
+  height: 100%;
+  position: absolute;
+  top: -100px;
+  left: 0;
+  right: 0;
 }
 .dancer-image > img {
   width: 100%;
@@ -702,12 +705,135 @@ a:hover {
   object-fit: contain;
 }
 
-.dance-form-card:nth-child(even) {
-  z-index: 1;
+.txt-overlay {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 389px;
+  height: 318px;
+  border: 1px solid white;
+  margin-left: 44px;
+  margin-right: 44px;
+  border-radius: 30px;
 }
 
-.dance-form-card:nth-child(odd) {
-  z-index: 0;
+.txt-overlay > h3 {
+  font-family: HeadingNowTrialRegular14, sans-serif;
+    font-size: 142px;
+    font-weight: 400;
+    line-height: 135%;
+    color: #ffffff;
+    position: relative;
+    top: -105px;
+    left: 24px;
+    right: 0;
+}
+
+.txt-overlay > p {
+  font-family: "Sora", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.5;
+  color: #ffffff;
 } */
-=======
->>>>>>> 406213411a70af0db37c21e5bb56970f4dcc3bcb
+
+.footer {
+  background: #111111;
+  color: #fff;
+  padding: 40px 0;
+  font-family: 'Sora',sans-serif;
+}
+
+.footer-logo {
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+.footer-desc {
+  font-size: 1rem;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.footer-social a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-social img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #222;
+  padding: 8px;
+  transition: background 0.2s;
+}
+
+.footer-social img:hover {
+  background: #3a3a3a;
+}
+
+.footer-title {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: #aeea00;
+}
+
+.footer-subscribe-desc {
+  font-size: 1rem;
+  margin-bottom: 18px;
+}
+
+.footer-subscribe-form {
+  display: flex;
+  align-items: center;
+  background: #252525;
+  border-radius: 10px;
+  padding: 6px 12px;
+  max-width: 400px;
+}
+
+.footer-subscribe-form input[type="email"] {
+  border: none;
+  background: transparent;
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.footer-subscribe-form button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0 8px;
+}
+
+.footer-subscribe-form img {
+  width: 28px;
+  height: 28px;
+}
