@@ -149,7 +149,7 @@ a:hover {
 
   font-family: HeadingNowTrialRegular, sans-serif;
   font-weight: 400;
-  line-height: 127px;
+  line-height: 100%;
   color: #fff;
   text-transform: uppercase;
 }
@@ -159,7 +159,7 @@ a:hover {
   font-style: normal;
   font-weight: 400;
   font-size: 162.126px;
-  line-height: 213px;
+  line-height: 100%;
   text-transform: uppercase;
   color: #fff;
 }
@@ -169,7 +169,7 @@ a:hover {
   font-style: normal;
   font-weight: 400;
   font-size: 176px;
-  line-height: 231px;
+  line-height: 100%;
   text-transform: uppercase;
   color: #fff;
 }
@@ -513,7 +513,7 @@ a:hover {
   font-family: "Sora", sans-serif;
   font-size: 42.79px;
   font-weight: 100;
-  line-height: 54px;
+  line-height: 100%;
   color: #fefefc;
 }
 .label {
@@ -588,7 +588,7 @@ a:hover {
   font-family: "Sora", sans-serif;
   font-size: 20px;
   font-weight: 400;
-  line-height: 25.2px;
+  line-height: 100%;
   color: #a8be83;
   text-transform: capitalize;
   margin-block: 48px;
@@ -602,7 +602,7 @@ a:hover {
   font-family: "Sora", sans-serif;
   font-size: 20px;
   font-weight: bold;
-  line-height: 25px;
+  line-height: 100%;
 }
 
 .union {
@@ -676,7 +676,7 @@ a:hover {
 .dance-form-content>h5{
   font-family: HeadingNowTrialRegular, sans-serif;
   font-size: 99.92px;
-  line-height: 99.99px;
+  line-height: 100%;
   color: #fff;
   text-transform: uppercase;
 }
@@ -684,6 +684,6 @@ a:hover {
 .dance-form-content>p{
   font-family: HeadingNowTrialRegular44, sans-serif;
   font-size: 45.14px;
-  line-height: 45.1px;
+  line-height: 100%;
   color: #defe5c;
 }
