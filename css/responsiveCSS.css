@@ -77,6 +77,9 @@
 }
 
 @media screen and (max-width: 800px) {
+  .banner-content{
+    flex-direction: column-reverse;
+  }
   .banner-content-left > h1 {
     font-size: 50px;
     line-height: 60px;
