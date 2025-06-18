@@ -426,7 +426,6 @@ a:hover {
   flex-direction: row-reverse;
 }
 
-
 .about-content-left > h4 {
   font-family: HeadingNowTrialRegular, sans-serif;
   font-style: normal;
@@ -459,7 +458,7 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   max-width: 1238px;
-  margin-top:30px;
+  margin-top: 30px;
 }
 .stats-row {
   display: flex;
@@ -704,4 +703,4 @@ a:hover {
 
 .dance-form-card:nth-child(odd) {
   z-index: 0;
-}
+} */
