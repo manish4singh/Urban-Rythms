@@ -27,6 +27,7 @@
     background: transparent;
     backdrop-filter: blur(10px);
   }
+  
   .navbar-links > ul {
     gap: 20px;
     align-items: center;
@@ -35,12 +36,8 @@
   .navbar-links > ul > li:not(:first-child)::before {
     content: "";
   }
-  .banner-content {
-    flex-direction: column-reverse;
-  }
-
-  .banner-content-left,
-  .banner-content-right {
+  
+  .col-6{
     width: 100% !important;
   }
 
@@ -73,6 +70,10 @@
   .divider{
     display: none;
   }
+
+  .ring,.cross{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -94,7 +95,34 @@
   .primary-btn {
     font-size: 14px;
   }
+
+  .banner-content-left,.about-content-left{
+    text-align: center;
+  }
+
+  .hiphop-ballet-content{
+    flex-direction: column;
+  }
+  .hiphop-content-right{
+    text-align: center;
+  }
+
+  .banner-btns,.review-area{
+    flex-direction: column;
+  }
+
 }
+
+
+@media screen and (max-width:502px){
+  
+}
+
+
+
+
+
+
 
 @media screen and (max-width: 400px){
 
