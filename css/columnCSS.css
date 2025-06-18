@@ -1,7 +1,6 @@
 /* Column padding for gutters */
 [class^="col-"] {
   padding: 0 15px;
-  box-sizing: border-box;
 }
 
 /* 12-column width system */
