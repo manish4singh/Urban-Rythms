@@ -63,9 +63,6 @@
   .primary-btn {
     font-size: 16px;
   }
-  .about-content {
-    flex-direction: column;
-  }
 
   .divider {
     display: none;
@@ -101,7 +98,8 @@
   }
 
   .banner-content-left,
-  .about-content-left {
+  .about-content-left,
+  .about-content-right > p {
     text-align: center;
   }
 
@@ -115,6 +113,11 @@
   .banner-btns,
   .review-area {
     flex-direction: column;
+    align-items: center;
+  }
+
+  .about-content {
+    flex-direction: column;
   }
 }
 
@@ -127,5 +130,12 @@
   .about-content {
     flex-direction: column;
     align-items: center;
+  }
+  .about-content-right > p {
+    text-align: center;
+  }
+  .union {
+    width: 25%;
+    height: 25%;
   }
 }
