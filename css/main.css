@@ -740,100 +740,172 @@ a:hover {
   color: #ffffff;
 } */
 
-.footer {
-  background: #111111;
-  color: #fff;
-  padding: 40px 0;
-  font-family: 'Sora',sans-serif;
+.footer-section {
+  min-height: 235.04px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.footer-logo {
-  width: 180px;
-  margin-bottom: 20px;
+.footer-section > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-section > div > div > div {
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer-desc {
-  font-size: 1rem;
-  margin-bottom: 25px;
-  line-height: 1.5;
+  max-width: 312px;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.footer-social a {
-  display: inline-block;
-  margin-right: 10px;
+.footer-desc > p {
+  font-family: "Sora", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: left;
+  color: #ffffff;
+  opacity: 0.5;
+  margin-block: 30px;
 }
 
-.footer-social img {
-  width: 48px;
-  height: 48px;
+.sm-icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.sm-icons > a {
+  display: flex;
+  width: 56px;
+  height: 56px;
   border-radius: 50%;
-  background: #222;
-  padding: 8px;
-  transition: background 0.2s;
+  justify-content: center;
+  align-items: center;
 }
 
-.footer-social img:hover {
-  background: #3a3a3a;
+.sm-icons > a:first-child {
+  background: linear-gradient(270deg, #789e14 0%, #233e02 100%);
 }
 
-.footer-title {
-  font-size: 1.2rem;
-  margin-bottom: 15px;
-  font-weight: bold;
+.sm-icons > a:nth-child(2),
+.sm-icons > a:last-child {
+  background: #ffffff;
 }
 
 .footer-links {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.footer-links li {
-  margin-bottom: 12px;
-}
-
-.footer-links a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1rem;
-  transition: color 0.2s;
-}
-
-.footer-links a:hover {
-  color: #aeea00;
-}
-
-.footer-subscribe-desc {
-  font-size: 1rem;
-  margin-bottom: 18px;
-}
-
-.footer-subscribe-form {
+  max-width: 179px;
+  min-height: 182px;
   display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-links > h3 {
+  font-family: "Sora", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.footer-links > ul {
+  margin-top: 36px;
+}
+
+.footer-links > ul > li {
+  margin-bottom: 10px; /* Space between list items */
+  display: flex; /* To align the arrow icon and text */
   align-items: center;
-  background: #252525;
-  border-radius: 10px;
-  padding: 6px 12px;
-  max-width: 400px;
 }
 
-.footer-subscribe-form input[type="email"] {
-  border: none;
-  background: transparent;
-  flex: 1;
-  padding: 10px;
-  font-size: 1rem;
-  outline: none;
+.footer-links > ul > li > a {
+  font-family: "Sora", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #ffffff;
+  opacity: 0.5;
 }
 
-.footer-subscribe-form button {
-  background: none;
-  border: none;
+.footer-links > ul > li > a::before {
+  content: "›"; /* Unicode character for the right-pointing arrow */
+  font-size: 18px; /* Adjust arrow size */
+  margin-right: 8px; /* Space between arrow and text */
+  color: #ffffff; /* Color of the arrow */
+  opacity: 0.5;
+  font-weight: bold; /* Make the arrow bolder */
+}
+
+.subscribe-section {
+  max-width: 536px;
+  min-height: 146px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.subscribe-section > h3 {
+  font-family: "Sora", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.subscribe-section > p {
+  font-family: "Sora", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+  color: #ffffff;
+  opacity: 0.5;
+  margin-block: 26px 21px;
+}
+
+.subscribe-input-group {
+  display: flex;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #252525;
+  max-width: 478px;
+  width: 100%; 
+}
+
+.email-input {
+  width: 100%;
+  padding: 17px 20px; 
+  border: none; 
+  background-color: transparent; 
+  color: #ffffff; 
+  font-size: 16px;
+  outline: none; 
+}
+
+.subscribe-button {
+  background-color: #373737; /* Same background as the input group for a seamless look */
+  border: none; /* Remove default button border */
+  padding: 17px 28px; /* Padding for the button */
   cursor: pointer;
-  padding: 0 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
 
-.footer-subscribe-form img {
-  width: 28px;
-  height: 28px;
+.subscribe-button:hover {
+  background-color: #444444; /* Slightly darker on hover */
+}
+
+.subscribe-button > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }

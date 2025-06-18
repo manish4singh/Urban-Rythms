@@ -119,10 +119,18 @@
   .about-content {
     flex-direction: column;
   }
+
+  .footer-content{
+    flex-direction: column;
+    align-items: center;
+  }
+  .col-3,.col-2,.col-5{
+    width: 100% !important;
+  }
+  
 }
 
-@media screen and (max-width: 502px) {
-}
+
 
 @media screen and (max-width: 400px) {
   .banner-btns,
@@ -146,3 +154,5 @@
     margin-bottom: 30px;
   }
 }
+
+
