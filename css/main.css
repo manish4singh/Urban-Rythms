@@ -50,7 +50,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+  padding: 0 15px;
 }
 
 .navbar-logo {
@@ -426,10 +426,6 @@ a:hover {
   flex-direction: row-reverse;
 }
 
-.about-content-left {
-  max-width: 634px;
-  min-height: 139.88px;
-}
 
 .about-content-left > h4 {
   font-family: HeadingNowTrialRegular, sans-serif;
@@ -449,11 +445,6 @@ a:hover {
   text-transform: capitalize;
 }
 
-.about-content-right {
-  max-width: 634px;
-  min-height: 144px;
-}
-
 .about-content-right > p {
   font-family: "Sora", sans-serif;
   font-size: 20px;
@@ -468,12 +459,13 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   max-width: 1238px;
+  margin-top:30px;
 }
 .stats-row {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  gap: 30px;
   align-items: center;
-  padding: 3rem 1rem;
   flex-wrap: wrap;
 }
 
@@ -544,7 +536,6 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  
 }
 
 .hiphop-ballet-content {
@@ -567,12 +558,6 @@ a:hover {
   width: 100%;
   height: 100%;
   object-fit: contain;
-}
-
-.hiphop-content-right {
-  max-width: 542px;
-  min-height: 574px;
-  text-align: right;
 }
 
 .hiphop-content-right > h6 {
@@ -649,21 +634,20 @@ a:hover {
 
 /* Dance Form Section */
 
-.dance-forms-section{
+.dance-forms-section {
   min-height: 1414px;
   display: flex;
   justify-content: center;
 }
 
-.dance-forms-section>div>div{
+.dance-forms-section > div > div {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
 }
 
-.dance-form-content{
+.dance-form-content {
   max-width: 1197.81px;
   min-height: 276.14px;
   width: 100%;
@@ -672,17 +656,52 @@ a:hover {
   margin: 0 auto;
 }
 
-.dance-form-content>h5{
+.dance-form-content > h5 {
   font-family: HeadingNowTrialRegular, sans-serif;
   font-size: 99.92px;
+  font-weight: 500;
   line-height: 100%;
   color: #fff;
   text-transform: uppercase;
 }
 
-.dance-form-content>p{
+.dance-form-content > p {
   font-family: HeadingNowTrialRegular44, sans-serif;
   font-size: 45.14px;
   line-height: 100%;
   color: #defe5c;
+}
+
+/* .dance-form-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.dance-form-card {
+  width: 480px;
+  height: 100%;
+  padding: 10px;
+  background: url("../assets/backgrounds/cards/Rectangle\ 9.png") no-repeat
+    center center/cover;
+  position: relative;
+}
+
+.dancer-image {
+  width: 100%;
+  height: fit-content;
+}
+.dancer-image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.dance-form-card:nth-child(even) {
+  z-index: 1;
+}
+
+.dance-form-card:nth-child(odd) {
+  z-index: 0;
 }
