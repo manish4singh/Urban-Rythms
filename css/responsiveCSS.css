@@ -117,7 +117,7 @@
   }
 
   .about-content {
-    flex-direction: column;
+    flex-direction: column; 
   }
 
   .footer-content{
