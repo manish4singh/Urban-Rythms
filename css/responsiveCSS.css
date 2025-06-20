@@ -117,20 +117,19 @@
   }
 
   .about-content {
-    flex-direction: column; 
+    flex-direction: column;
   }
 
-  .footer-content{
+  .footer-content {
     flex-direction: column;
     align-items: center;
   }
-  .col-3,.col-2,.col-5{
+  .col-3,
+  .col-2,
+  .col-5 {
     width: 100% !important;
   }
-  
 }
-
-
 
 @media screen and (max-width: 400px) {
   .banner-btns,
@@ -155,4 +154,21 @@
   }
 }
 
-
+@media screen and (max-width: 900px) {
+  .timetable-container {
+    max-width: 98vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .timetable-header,
+  .timetable-table td {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+  .timetable-table td {
+    font-size: 14px;
+  }
+  .timetable-title-secondary {
+    font-size: 22px;
+  }
+}

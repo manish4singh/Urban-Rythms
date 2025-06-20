@@ -14,7 +14,6 @@ ul {
 
 a {
   text-decoration: none;
-  color: white;
 }
 a:hover {
   text-decoration: none;
@@ -198,6 +197,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #ffffff;
   background: linear-gradient(202.02deg, #defe5c 12.68%, #2f3907 92.6%);
 }
 
@@ -214,6 +214,7 @@ a:hover {
   gap: 18px;
   font-family: "Sora", sans-serif;
   font-weight: bold;
+  color: #ffffff;
 }
 
 .play-btn {
@@ -327,6 +328,7 @@ a:hover {
   position: absolute;
   top: 355px;
   left: -115px;
+  color: #ffffff;
 }
 
 .profile {
@@ -381,6 +383,7 @@ a:hover {
   bottom: -40px;
   right: -100px;
   z-index: -1;
+  color: #ffffff;
 }
 
 .profile1 {
@@ -585,6 +588,7 @@ a:hover {
   font-size: 20px;
   font-weight: bold;
   line-height: 100%;
+  color: #ffffff;
 }
 
 .union {
@@ -739,6 +743,354 @@ a:hover {
   color: #ffffff;
 } */
 
+/* Table Section */
+
+.table-section {
+  min-height: 1247px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-section > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-section-content {
+  max-width: 368px;
+  width: 100%;
+  min-height: fit-content;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.table-section-content > h3 {
+  font-family: HeadingNowTrialRegular, sans-serif;
+  font-size: 99.92px;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.table-section-content > p {
+  font-family: HeadingNowTrialRegular, sans-serif;
+  font-size: 45.14px;
+  font-weight: 500;
+  color: #defe5c;
+}
+
+.table-section-content > p > span {
+  font-family: MorganiteBook, sans-serif;
+  font-size: 45.14px;
+  font-weight: 500;
+}
+
+.table-area {
+  max-width: 100%;
+  min-height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.timetable-tabs {
+  display: flex;
+  gap: 0;
+  margin: 0 0 0 0;
+  padding-left: 0;
+  background: transparent;
+  align-items: flex-end;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  border: 3px solid #fff;
+  border-bottom: none;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+.timetable-tab {
+  flex: 1 1 0;
+  padding: 16px 0 10px 0;
+  text-align: center;
+  font-size: 45.62px;
+  color: #fff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: HeadingNowTrialRegular, sans-serif;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px #0008;
+  border-bottom: 0;
+  transition: background 0.2s, color 0.2s;
+  position: relative;
+}
+.timetable-tab.selected {
+  color: #fff;
+  /* box-shadow: 0 8px 24px 0 #0003; */
+  z-index: 3;
+  background: linear-gradient(37deg, #789e14 0%, #233e02 100%);
+}
+.timetable-table-wrap {
+  background: linear-gradient(120deg, #3a4d1d 0%, #7fa52d 100%);
+  border-radius: 0 0 16px 16px;
+  margin-top: -3px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px 0 #0006;
+  padding: 0 0 40px 0;
+  position: relative;
+  min-height: 410px;
+  width: 100%;
+}
+.timetable-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #fff;
+  margin: 0;
+  font-size: 17px;
+}
+.timetable-table tr {
+  border: none;
+}
+.timetable-table td {
+  padding: 18px 8px 18px 28px;
+  border: none;
+  vertical-align: middle;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "Sora", sans-serif;
+
+  font-size: 16px;
+  color: #fafff8;
+}
+.timetable-time {
+  font-weight: 700;
+  font-size: 17px;
+  width: 70px;
+  color: #fff;
+}
+.timetable-class {
+  font-weight: 700;
+  font-size: 17px;
+  color: #fff;
+
+  display: block;
+}
+.timetable-class-desc {
+  font-size: 14px;
+  color: #c2d6a2;
+  font-weight: 400;
+  margin-top: 3px;
+}
+.timetable-location {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+}
+.timetable-teacher {
+  font-size: 14px;
+  font-weight: 400;
+  color: #c2d6a2;
+  margin-top: 3px;
+  display: block;
+}
+.timetable-capacity-label {
+  font-size: 15px;
+  color: #e4f57e;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.timetable-capacity-bar-wrap {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 5px;
+  height: 8px;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+.timetable-capacity-bar {
+  background: linear-gradient(-90deg, #789E14 0%, #223E02 100%);
+    height: 100%;
+    border-radius: 5px;
+    transition: width 0.3s;
+}
+.timetable-capacity-count {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 10px;
+  display: inline-block;
+  min-width: 34px;
+  text-align: right;
+}
+.timetable-book-btn {
+  background: #7fa52d;
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+
+  font-size: 17px;
+  padding: 12px 33px;
+
+  font-weight: 700;
+  box-shadow: 0 4px 18px 0 #587e2455;
+  cursor: pointer;
+  outline: none;
+  transition: background 0.2s, box-shadow 0.2s;
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
+  opacity: 0.95;
+}
+.timetable-book-btn.selected {
+  background: #b5f35a;
+  color: #324c17;
+  box-shadow: 0 2px 10px #b5f35a77;
+}
+.timetable-book-btn:disabled {
+  background: #ffffff1a;
+  color: #fff9;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+/* Upcoming Events Section */
+
+/* .upcoming-events-section {
+  min-height: 1500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upcoming-events-section > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upcoming-events-content {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.upcoming-events-content > h3 {
+  font-family: MorganiteBook, sans-serif;
+  font-size: 99.92px;
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.upcoming-events-content > p {
+  font-family: HeadingNowTrialRegular44, sans-serif;
+  font-size: 45.14px;
+  font-weight: 400;
+  color: #defe5c;
+}
+
+.upcoming-events-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.upcoming-event-card1 {
+  max-width: 449.9px;
+  min-height: 744.2px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.event-card1-img {
+  max-width: 100%;
+  min-height: 536px;
+  height: 100%;
+  position: relative;
+}
+
+.event-card1-img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 15px;
+}
+
+.txt-over-img {
+  max-width: 405.34px;
+  min-height: 254px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -213px;
+  left: 0;
+  right: 0;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  border-radius: 65.79px;
+  padding: 22.28px 77.21px 22.33px 76.4px;
+  width: 100%;
+}
+
+.countdown-item {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.countdown-item > div {
+  font-family: MorganiteSemiBold, sans-serif;
+  font-size: 38.2px;
+}
+
+.countdown-item > span {
+  font-family: HeadingNowTrialRegular, sans-serif;
+  font-size: 22.28px;
+}
+.txt-over-img-content {
+  display: flex;
+  align-self: start;
+  margin-left: 11.67px;
+  max-width: 393.67px;
+  min-height: 138.34px;
+  flex-direction: column;
+}
+
+.txt-over-img-content > h5 {
+  font-family: HeadingNowTrialRegular, sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.txt-over-img-content > h5 > span {
+  font-family: MorganiteBook, sans-serif;
+}
+
+.txt-over-img-content > p {
+  font-family: "Sora", sans-serif;
+  font-size: 16.98px;
+  font-weight: 400;
+  color: #ffffff;
+  opacity: 0.5;
+} */
+
+/* Footer Section */
+
 .footer-section {
   min-height: 235.04px;
   display: flex;
@@ -885,18 +1237,18 @@ a:hover {
 }
 
 .subscribe-button {
-  background-color: #373737; /* Same background as the input group for a seamless look */
-  border: none; /* Remove default button border */
-  padding: 17px 28px; /* Padding for the button */
+  background-color: #373737;
+  border: none;
+  padding: 17px 28px;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  transition: background-color 0.3s ease;
 }
 
 .subscribe-button:hover {
-  background-color: #444444; /* Slightly darker on hover */
+  background-color: #444444;
 }
 
 .subscribe-button > img {
@@ -904,4 +1256,3 @@ a:hover {
   height: 100%;
   object-fit: contain;
 }
-

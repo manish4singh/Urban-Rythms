@@ -40,3 +40,124 @@
   font-family: Impact;
   src: url("../assets/fonts/impact/Impact.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: MorganiteBlack;
+  src: url("../assets/fonts/Morganite/Morganite-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: MorganiteBlackItalic;
+  src: url("../assets/fonts/Morganite/Morganite-BlackItalic.ttf")
+    format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: MorganiteBold;
+  src: url("../assets/fonts/Morganite/Morganite-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: MorganiteBoldItalic;
+  src: url("../assets/fonts/Morganite/Morganite-BoldItalic.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: MorganiteBook;
+  src: url("../assets/fonts/Morganite/Morganite-Book.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: MorganiteBookItalic;
+  src: url("../assets/fonts/Morganite/Morganite-BookItalic.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: MorganiteExtraBold;
+  src: url("../assets/fonts/Morganite/Morganite-ExtraBold.ttf")
+    format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: MorganiteExtraBoldItalic;
+  src: url("../assets/fonts/Morganite/Morganite-ExtraBoldItalic.ttf")
+    format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: MorganiteExtraLight;
+  src: url("../assets/fonts/Morganite/Morganite-ExtraLight.ttf")
+    format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: MorganiteExtraLightItalic;
+  src: url("../assets/fonts/Morganite/Morganite-ExtraLightItalic.ttf")
+    format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: MorganiteLight;
+  src: url("../assets/fonts/Morganite/Morganite-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: MorganiteLightItalic;
+  src: url("../assets/fonts/Morganite/Morganite-LightItalic.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: MorganiteMedium;
+  src: url("../assets/fonts/Morganite/Morganite-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: MorganiteMediumItalic;
+  src: url("../assets/fonts/Morganite/Morganite-MediumItalic.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: MorganiteSemiBold;
+  src: url("../assets/fonts/Morganite/Morganite-SemiBold.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: MorganiteSemiBoldItalic;
+  src: url("../assets/fonts/Morganite/Morganite-SemiBoldItalic.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: MorganiteThin;
+  src: url("../assets/fonts/Morganite/Morganite-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: MorganiteThinItalic;
+  src: url("../assets/fonts/Morganite/Morganite-ThinItalic.ttf")
+    format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
