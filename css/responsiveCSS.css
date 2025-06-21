@@ -172,3 +172,178 @@
     font-size: 22px;
   }
 }
+@media (max-width: 700px) {
+  .timetable-table-wrap {
+    padding: 0 0 10px 0;
+    min-height: 0;
+  }
+  .timetable-table {
+    display: block;
+    width: 100%;
+  }
+  .timetable-table tr {
+    display: block;
+    margin: 20px 0;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #0002;
+    padding: 10px 8px;
+  }
+  .timetable-table td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 10px 6px 10px;
+    font-size: 15px;
+    text-align: left;
+    border: none;
+    position: relative;
+  }
+  .timetable-time::before {
+    content: "Time: ";
+    font-weight: bold;
+    color: #defe5c;
+  }
+  .timetable-class::before {
+    content: "Class: ";
+    font-weight: bold;
+    color: #defe5c;
+  }
+  .timetable-class-desc::before {
+    content: "";
+  }
+  .timetable-location::before {
+    content: "Location: ";
+    font-weight: bold;
+    color: #defe5c;
+  }
+  .timetable-teacher::before {
+    content: "Teacher: ";
+    font-weight: bold;
+    color: #defe5c;
+  }
+  .timetable-capacity-label,
+  .timetable-capacity-bar-wrap,
+  .timetable-capacity-count {
+    display: inline-block;
+    margin-right: 7px;
+    vertical-align: middle;
+  }
+  .timetable-book-btn {
+    width: 100%;
+    margin: 8px 0 0 0;
+    padding: 11px 0;
+  }
+}
+@media (max-width: 700px) {
+  /* --- Responsive Tabs --- */
+  .timetable-tabs {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    flex-wrap: nowrap;
+    scrollbar-width: thin;
+    scrollbar-color: #defe5c #2f3907;
+    background: #2f3907;
+    border-radius: 10px 10px 0 0;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #fff;
+    border-bottom: none;
+    position: relative;
+    min-height: 48px;
+  }
+  .timetable-tabs::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 24px;
+    pointer-events: none;
+    background: linear-gradient(to left, #2f3907 80%, transparent 100%);
+  }
+  .timetable-tab {
+    flex: 0 0 auto;
+    min-width: 120px;
+    font-size: 16px;
+    padding: 12px 0 8px 0;
+    margin: 0 2px;
+    border-radius: 0;
+    border: none;
+    background: none;
+    outline: none;
+    white-space: nowrap;
+    overflow: visible;
+    text-overflow: unset;
+  }
+  .timetable-tab.selected {
+    background: #87a52e;
+    color: #2f3907;
+    font-weight: bold;
+    text-shadow: none;
+  }
+  /* --- Responsive Table as Cards --- */
+  .timetable-table-wrap {
+    padding: 0 0 10px 0;
+    min-height: 0;
+  }
+  .timetable-table {
+    display: block;
+    width: 100%;
+  }
+  .timetable-table tr {
+    display: block;
+    margin: 20px 0;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #0002;
+    padding: 10px 8px;
+  }
+  .timetable-table td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 10px 6px 10px;
+    font-size: 15px;
+    text-align: left;
+    border: none;
+    position: relative;
+  }
+  .timetable-time::before {
+    content: "Time: ";
+    font-weight: bold;
+    color: #defe5c;
+  }
+  .timetable-class::before {
+    content: "Class: ";
+    font-weight: bold;
+    color: #defe5c;
+  }
+  .timetable-class-desc::before {
+    content: "";
+  }
+  .timetable-location::before {
+    content: "Location: ";
+    font-weight: bold;
+    color: #defe5c;
+  }
+  .timetable-teacher::before {
+    content: "Teacher: ";
+    font-weight: bold;
+    color: #defe5c;
+  }
+  .timetable-capacity-label,
+  .timetable-capacity-bar-wrap,
+  .timetable-capacity-count {
+    display: inline-block;
+    margin-right: 7px;
+    vertical-align: middle;
+  }
+  .timetable-book-btn {
+    width: 100%;
+    margin: 8px 0 0 0;
+    padding: 11px 0;
+  }
+}
