@@ -149,7 +149,7 @@
 
 @media screen and (max-width: 900px) {
   .col-4 {
-    width: 100%;
+    width: 100% !important;
     margin-bottom: 30px;
   }
 }
@@ -345,5 +345,375 @@
     width: 100%;
     margin: 8px 0 0 0;
     padding: 11px 0;
+  }
+}
+
+/* Add these responsive styles to your existing CSS */
+
+/* Tablet and smaller desktop screens */
+@media screen and (max-width: 1200px) {
+  .upcoming-events-content > h3 {
+    font-size: 80px;
+  }
+
+  .upcoming-events-content > p {
+    font-size: 38px;
+  }
+
+  .upcoming-event-card1 {
+    max-width: 400px;
+    min-height: 650px;
+  }
+
+  .event-card1-img {
+    min-height: 450px;
+  }
+
+  .txt-over-img {
+    max-width: 350px;
+    min-height: 220px;
+    bottom: -180px;
+  }
+
+  .countdown {
+    padding: 18px 60px;
+  }
+
+  .countdown-item > div {
+    font-size: 32px;
+  }
+
+  .countdown-item > span {
+    font-size: 18px;
+  }
+
+  .txt-over-img-content > h5 {
+    font-size: 50px;
+  }
+
+  .upcoming-event-card2,
+  .upcoming-event-card3 {
+    max-width: 320px;
+    min-height: 550px;
+  }
+
+  .event-card2-img,
+  .event-card3-img {
+    width: 320px;
+    height: 320px;
+  }
+
+  .txt-over-img-content1,
+  .txt-over-img-content2 {
+    max-width: 280px;
+    min-height: 180px;
+    bottom: -100px;
+  }
+
+  .txt-over-img-content1 > h5,
+  .txt-over-img-content2 > h5 {
+    font-size: 40px;
+  }
+
+  .event-notifier {
+    max-width: 650px;
+    margin-top: 80px;
+  }
+
+  .event-notifier > h6,
+  .event-notifier > span {
+    font-size: 20px;
+  }
+}
+
+/* Large tablets */
+@media screen and (max-width: 992px) {
+  .upcoming-events-section {
+    min-height: 1200px;
+    padding: 40px 20px;
+  }
+
+  .upcoming-events-content > h3 {
+    font-size: 65px;
+  }
+
+  .upcoming-events-content > p {
+    font-size: 32px;
+  }
+
+  .upcoming-events-cards {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .upcoming-event-card1 {
+    max-width: 100%;
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .event-cards {
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+  }
+
+  .event-notifier {
+    margin-top: 60px;
+    max-width: 100%;
+  }
+}
+
+/* Mobile and tablet breakpoint - Column layout starts here */
+@media screen and (max-width: 768px) {
+  .upcoming-events-section {
+    min-height: auto;
+    padding: 30px 15px;
+  }
+
+  .upcoming-events-section > div > div {
+    flex-direction: column;
+  }
+
+  .upcoming-events-content {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .upcoming-events-content > h3 {
+    font-size: 50px;
+    line-height: 55px;
+  }
+
+  .upcoming-events-content > p {
+    font-size: 28px;
+    margin-top: 15px;
+  }
+
+  .upcoming-events-cards {
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+  }
+
+  .upcoming-events-cards > div:last-child {
+    gap: 50px;
+  }
+
+  .upcoming-event-card1 {
+    max-width: 100%;
+    min-height: auto;
+    margin-bottom: 30px;
+  }
+
+  .event-card1-img {
+    min-height: 400px;
+  }
+
+  .txt-over-img {
+    position: static;
+    margin-top: 20px;
+    max-width: 100%;
+    min-height: auto;
+  }
+
+  .countdown {
+    padding: 15px 30px;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .countdown-item {
+    min-width: 70px;
+  }
+
+  .countdown-item > div {
+    font-size: 28px;
+  }
+
+  .countdown-item > span {
+    font-size: 16px;
+  }
+
+  .txt-over-img-content {
+    margin-left: 0;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .txt-over-img-content > h5 {
+    font-size: 42px;
+    line-height: 48px;
+  }
+
+  .txt-over-img-content > p {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+  .event-cards {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .upcoming-event-card2,
+  .upcoming-event-card3 {
+    max-width: 100%;
+    min-height: auto;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .event-card2-img,
+  .event-card3-img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .txt-over-img-content1,
+  .txt-over-img-content2 {
+    position: static;
+    max-width: 100%;
+    min-height: auto;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .txt-over-img-content1 > h5,
+  .txt-over-img-content2 > h5 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .txt-over-img-content1 > p,
+  .txt-over-img-content2 > p {
+    margin-block: 15px 20px;
+  }
+
+  .event-notifier {
+    margin-top: 40px;
+    max-width: 100%;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    padding: 25px 20px;
+  }
+
+  .event-notifier > h6,
+  .event-notifier > span {
+    font-size: 18px;
+  }
+
+  .book-now {
+    padding: 15px 35px;
+    margin-top: 10px;
+  }
+}
+
+/* Small mobile screens */
+@media screen and (max-width: 480px) {
+  .upcoming-events-section {
+    padding: 20px 10px;
+  }
+
+  .upcoming-events-content > h3 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+
+  .upcoming-events-content > p {
+    font-size: 24px;
+  }
+
+  .event-card1-img {
+    min-height: 300px;
+  }
+
+  .countdown {
+    padding: 12px 20px;
+    gap: 8px;
+  }
+
+  .countdown-item > div {
+    font-size: 24px;
+  }
+
+  .countdown-item > span {
+    font-size: 14px;
+  }
+
+  .txt-over-img-content > h5 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .txt-over-img-content > p {
+    font-size: 14px;
+  }
+
+  .event-card2-img,
+  .event-card3-img {
+    height: 250px;
+  }
+
+  .txt-over-img-content1 > h5,
+  .txt-over-img-content2 > h5 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .txt-over-img-content1 > p,
+  .txt-over-img-content2 > p {
+    font-size: 14px;
+  }
+
+  .event-notifier {
+    padding: 20px 15px;
+  }
+
+  .event-notifier > h6,
+  .event-notifier > span {
+    font-size: 16px;
+  }
+
+  .book-now {
+    padding: 12px 25px;
+    font-size: 14px;
+  }
+}
+
+/* Very small screens */
+@media screen and (max-width: 360px) {
+  .upcoming-events-content > h3 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .upcoming-events-content > p {
+    font-size: 20px;
+  }
+
+  .countdown-item > div {
+    font-size: 20px;
+  }
+
+  .countdown-item > span {
+    font-size: 12px;
+  }
+
+  .txt-over-img-content > h5 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  .txt-over-img-content1 > h5,
+  .txt-over-img-content2 > h5 {
+    font-size: 24px;
+    line-height: 28px;
   }
 }
