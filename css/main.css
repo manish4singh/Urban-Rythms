@@ -812,7 +812,7 @@ a:hover {
 }
 .timetable-tab {
   flex: 1 1 0;
-  padding: 16px 0 10px 0;
+  /* padding: 16px 0 10px 0; */
   text-align: center;
   font-size: 45.62px;
   color: #fff;
@@ -820,9 +820,7 @@ a:hover {
   border: none;
   cursor: pointer;
   font-family: HeadingNowTrialRegular, sans-serif;
-  font-weight: 700;
-  text-shadow: 2px 2px 4px #0008;
-  border-bottom: 0;
+  font-weight: 400;
   transition: background 0.2s, color 0.2s;
   position: relative;
 }
